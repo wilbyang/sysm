@@ -2,6 +2,7 @@ A system monitoring shows cpu and memory usage
 
 use github.com/cloudfoundry/gosigar for collecting cpu and memory information
 
+use websocket to send back the metrics to frontend for visualization
 
 0. install dep for golang dependency management
 1. dep ensure
